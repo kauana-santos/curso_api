@@ -27,5 +27,4 @@ public interface CursoMapper {
     @Mapping(target= "id", ignore = true)
     void update(CursoRequestDto dto, @MappingTarget Curso curso);
 
-
 }

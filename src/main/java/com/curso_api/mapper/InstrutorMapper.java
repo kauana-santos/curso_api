@@ -10,7 +10,7 @@ import org.mapstruct.MappingTarget;
 @Mapper(componentModel = "spring")
 public interface InstrutorMapper {
 
-    @Mapping(target = "cursos", ignore = true)
+
     InstrutorResponseDTO toResponse(Instrutor instrutor);
 
     Instrutor toEntity(InstrutorRequestDTO instrutorRequestDTO);
